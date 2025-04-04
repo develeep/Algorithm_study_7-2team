@@ -1,4 +1,4 @@
-# 확인용
+# git config 수정
 N = int(input())
 weights, heights = [], []
 res = [1] * N
