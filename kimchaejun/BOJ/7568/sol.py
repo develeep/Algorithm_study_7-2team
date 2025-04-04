@@ -9,10 +9,6 @@ for i in range(N):
     for j in range(N):
         if i == j:
             continue
-        if weights[i] > weights[j] and heights[i] < heights[j]:
-            continue
-        if weights[i] < weights[j] and heights[i] > heights[j]:
-            continue
         if weights[i] > weights[j] and heights[i] > heights[j]:
             res[j] += 1
 print(*res)
