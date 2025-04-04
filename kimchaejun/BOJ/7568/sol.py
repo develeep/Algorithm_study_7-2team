@@ -1,3 +1,4 @@
+# 확인용
 N = int(input())
 weights, heights = [], []
 res = [1] * N
