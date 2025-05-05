@@ -10,10 +10,9 @@ idx = 2
 
 def fibo(n):
     global dp, num, idx
-    if n == 0:
+    if n == 0 or dp[n] != 0:
         return num[n]
-    elif n == 1:
-        return num[n]
+
     for i in range(idx, n+1):
         zero, one = 0, 0
         dp[i] = dp[i-1] + dp[i-2]
